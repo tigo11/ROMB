@@ -5,7 +5,7 @@ size=$1
 if [ $# -eq 0 ]; then
     echo "enter a number"
     exit 1
-
+fi
 #first part of the romb (the top)
 part1=1
 for ((i=0;i<size;i++)); do
