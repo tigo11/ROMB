@@ -1,9 +1,9 @@
 #!/bin/bash
-#the last incoming always!!!!!!!!! sits down penultimate
+#the last incoming always sits down penultimate
 
 #processing parameters
 if [ $# -eq 0 ]; then
-	echo "How much chairs?"
+	echo "How many chairs?"
 	exit 1
 fi
 
